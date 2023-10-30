@@ -1,0 +1,54 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 150px;
+}
+#sociais-superior{
+    height: 20px;
+    background-color: #e30613;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sociais-superior ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo-menu{
+    width: 80%;
+    height: 130px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+
+    background-color: aqua;
+}
+#logo-menu img{
+    width: 10%;
+}
+#menu{
+    width: 70%;
+    border-bottom: solid 2px red;
+}
+#menu a{
+    color: black;
+}
+
+#menu ul{
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
